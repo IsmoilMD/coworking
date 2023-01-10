@@ -1,7 +1,12 @@
-nav{
-    height: 10vh;
-    width: 1440px;
-}
+
+@import './general';
+@import './container';
+@import './header';
+
+// nav{
+//     height: 10vh;
+//     width: 1440px;
+// }
 
 main{
     width: 1440px;
