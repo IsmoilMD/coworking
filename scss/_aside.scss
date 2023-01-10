@@ -1,0 +1,23 @@
+.aside__part-1{
+    height: 140px;
+    width: 100%;
+    background-color: rgb(13, 255, 0);
+   
+}
+.aside__part-1-items{
+    height: 33%;
+    display: flex;
+    align-items: center;
+justify-content: space-evenly;
+    p{
+        width: 140px;
+height: 20px;
+font-weight: 500;
+font-size: 14px;
+line-height: 20px;
+color: #FFFFFF;
+    }
+i{
+font-size: 22px;
+}
+}
