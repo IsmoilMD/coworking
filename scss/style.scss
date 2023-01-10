@@ -1,0 +1,21 @@
+nav{
+    height: 10vh;
+    width: 1440px;
+}
+
+main{
+    width: 1440px;
+    height: 90vh;
+    display: flex;
+}
+aside{
+    width: 25%;
+    height: 100%;
+    background-color: purple;
+}
+.carding__page{
+    width: 75%;
+    height: 100%;
+  background-color: red;
+}
+
