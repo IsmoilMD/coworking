@@ -1,0 +1,41 @@
+header{
+  background-color: #212121;
+}
+
+.navbar__inner{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.mail__form{
+  display: flex;
+  align-items: center;
+}
+
+.mail__text{
+  margin: 0;
+  font-weight: 400;
+font-size: 16px;
+line-height: 20px;
+align-items: center;
+border: none;
+background: #000000;
+border-radius: 5px;
+padding: 4px 547px 4px 8px;
+color: #949494;
+}
+
+.form__button{
+  margin: 0;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  margin-left: 21px;
+  padding: 4px 22px;
+  border: none;
+  color: #FFFFFF;
+  background: #333333;
+  border-radius: 3px;
+}
