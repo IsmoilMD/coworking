@@ -76,7 +76,6 @@ header {
 
 main {
   width: 1440px;
-  height: 90vh;
   display: flex;
 }
 
@@ -86,7 +85,48 @@ aside {
   background-color: purple;
 }
 
+.carding__page-parent {
+  padding: 24px;
+  background-color: #212121;
+}
+
 .carding__page {
+
+  gap: 16px;
+  width: 100%;
+  display: flex;
+  margin-bottom: 41px;
+}
+
+.card {
+  width: 332px;
+  height: 283px;
+}
+
+.card__child {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.card__child > h3 {
+  font-weight: 400;
+  font-size: 16px;
+  color: #FFFFFF;
+}
+
+.small__text {
+  margin-left: 43px;
+  margin-top: -10px;
+}
+
+.small__text > h4,
+p {
+  font-weight: 400;
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.6);
+  margin: 2px;
+
   width: 75%;
   height: 100%;
   background-color: red;
@@ -114,4 +154,5 @@ aside {
 }
 .aside__part-1-items i {
   font-size: 22px;
+
 }/*# sourceMappingURL=style.min.css.map */
