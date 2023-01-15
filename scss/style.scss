@@ -1,7 +1,19 @@
+
 nav {
     height: 10vh;
     width: 1440px;
 }
+=======
+
+@import './general';
+@import './container';
+@import './header';
+
+// nav{
+//     height: 10vh;
+//     width: 1440px;
+// }
+
 
 main {
     width: 1440px;
@@ -48,6 +60,7 @@ aside {
     margin-top: -10px;
 }
 
+
 .small__text > h4,
 p {
     font-weight: 400;
@@ -55,3 +68,6 @@ p {
     color: rgba(255, 255, 255, 0.6);
     margin: 2px;
 }
+
+ @import "aside";
+
